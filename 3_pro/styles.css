@@ -1,0 +1,37 @@
+﻿body {
+   font-family: Arial, sans-serif;
+}
+
+#addReviewSection, #productList, #reviews {
+   margin: 20px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   background-color: #f7f7f7;
+}
+
+input[type="text"], textarea {
+   display: block;
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+button {
+   background-color: #0074d9;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+li {
+   margin: 10px 0;
+}
+
+button.delete-button {
+   background-color: #ff4136;
+}
