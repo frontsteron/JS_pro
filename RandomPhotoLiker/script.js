@@ -74,4 +74,4 @@ likeButton.addEventListener('click', handleLike);
 prevButton.addEventListener('click', showPreviousPhoto);
 
 // Автоматически меняем изображение каждые 5 секунд
-setInterval(fetchRandomImage, 5000);  // Добавьте эту строку
+setInterval(fetchRandomImage, 5000);
